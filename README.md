@@ -1,5 +1,10 @@
 # bitwise-operations-deep-dive
 
+## Concepts
+- Bitwise AND, OR, XOR and NOT
+- Bitwise representation of positive and negative numbers
+- 2's complement
+
 ## Bitwise Operators
 - `&` (and): The binary AND operation has two inputs and one output. Always produce a 1 output if both of its inputs are 1 and will produce a 0 output if one or both of its inputs are 0.
   + 0, 0 => 0
