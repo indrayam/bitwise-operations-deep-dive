@@ -32,6 +32,8 @@ Inv   = 11111111 11111111 11111111 11101000
 + 1   = 00000000 00000000 00000000 00000001
 Res   = 11111111 11111111 11111111 11101001
 ```
+- The bit shifts are sometimes considered bitwise operations, because they treat a value as a series of bits rather than as a numerical quantity. In these operations the digits are moved, or shifted, to the left or right. Registers in a computer processor have a fixed width, so some bits will be "shifted out" of the register at one end, while the same number of bits are "shifted in" from the other end; the differences between bit shift operators lie in how they determine the values of the shifted-in bits.
+- In an *Arithmetic shift*, the bits that are shifted out of either end are discarded. In a left arithmetic shift, zeros are shifted in on the right; in a right arithmetic shift, the sign bit (the MSB in two's complement) is shifted in on the left, thus preserving the sign of the operand.
 
 ## References
 - [Bitwise AND Operation](http://www.xcprod.com/titan/XCSB-DOC/binary_and.html)
